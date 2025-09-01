@@ -8,7 +8,8 @@ import { helpColumns } from '@helpers/helpTable'
 import './Scraping.css'
 
 const initSearch = 'https://books.toscrape.com'
-const URL_API = 'http://127.0.0.1:8000/scrap'
+// const URL_API = 'http://127.0.0.1:8000/scrap'
+const URL_API = 'https://web-scraping-backend-six.vercel.app/scrap'
 
 const Scraping = () => {
   const [search, setSearch] = useState(initSearch)
