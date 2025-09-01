@@ -1,0 +1,113 @@
+.table-options {
+  padding: 0.8rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options-btns {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.export-btn {
+  width: 36px;
+  height: 36px;
+
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: transparent;
+  color: var(--cs-secondary);
+
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  color: var(--cs-primary);
+}
+
+.custom-table {
+  outline: 1px solid var(--cs-primary);
+  border-collapse: collapse;
+  border-radius: 0.4rem;
+
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.custom-table_head {
+  background-color: var(--cs-primary);
+  color: var(--cs-tertiary);
+
+  font-size: 1.1rem;
+}
+
+.custom-table_head th {
+  padding: 0.4rem 1.2rem;
+
+  font-weight: 500;
+}
+
+.custom-table_body td {
+  padding: 0.4rem 0.8rem;
+}
+
+.custom-table_head tr > * {
+  border-right: 1px solid var(--cs-tertiary);
+}
+
+.custom-table_head tr > :last-child {
+  border-right: none;
+}
+
+.custom-table_body tr:nth-child(even) {
+  background-color: var(--cs-info-light);
+}
+
+/* styles pagination */
+.pagination {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.pagination-btn {
+  padding: 0.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: var(--cs-primary);
+  color: var(--cs-tertiary);
+
+  cursor: pointer;
+}
+
+.pagination-btn:hover {
+  background-color: var(--cs-primary-light);
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pagination-btn:disabled:hover {
+  background-color: var(--cs-primary);
+}
+
+.pagination-icon {
+  width: 24px;
+  height: auto;
+
+  stroke-width: 1.6;
+}

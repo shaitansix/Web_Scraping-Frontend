@@ -1,0 +1,37 @@
+:root {
+  --max-width: 1100px;
+
+  --cs-primary: hsl(210, 92%, 36%);
+  --cs-primary-light: hsl(210, 92%, 44%);
+  --cs-secondary: hsl(210, 92%, 4%);
+  --cs-secondary-light: hsl(210, 8%, 32%);
+  --cs-tertiary-dark: hsl(210, 92%, 80%);
+  --cs-tertiary: hsl(210, 92%, 96%);
+  --cs-tertiary-light: hsl(210, 92%, 100%);
+
+  --cs-info-light: hsl(210, 60%, 86%);
+  --cs-success-light: hsl(120, 60%, 86%);
+  --cs-warning-light: hsl(50, 60%, 86%);
+  --cs-error-light: hsl(0, 60%, 86%);
+  --cs-info: hsl(210, 60%, 50%);
+  --cs-success: hsl(120, 60%, 50%);
+  --cs-warning: hsl(50, 60%, 50%);
+  --cs-error: hsl(0, 60%, 50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--cs-tertiary);
+  color: var(--cs-secondary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}

@@ -1,0 +1,71 @@
+.home {
+  padding: 3.2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-left {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.hero-title {
+  color: var(--cs-primary);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.hero-description, 
+.hero-btn {
+  font-size: 1.2rem;
+}
+
+.hero-description {
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  padding: 0.6rem 1.2rem;
+  width: fit-content;
+
+  border-radius: 0.2rem;
+  background-color: var(--cs-primary);
+  color: var(--cs-tertiary);
+  text-decoration: none;
+}
+
+.hero-btn:hover {
+  background-color: var(--cs-primary-light);
+}
+
+.hero-right {
+  width: 32%;
+
+  line-height: 0;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.home-cards {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_card-icon {
+  width: 12rem;
+  height: 12rem;
+
+  stroke-width: 0.6;
+  color: var(--cs-primary);
+}

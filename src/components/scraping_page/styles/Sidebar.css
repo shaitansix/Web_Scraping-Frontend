@@ -1,0 +1,21 @@
+.sidebar {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  border-bottom: 1px solid var(--cs-tertiary-dark);
+  background-color: var(--cs-secondary);
+}
+
+.sidebar > * {
+  color: var(--cs-tertiary);
+  text-decoration: none;
+}
+
+.sidebar-icon {
+  width: 2rem;
+  height: auto;
+
+  stroke-width: 1.6;
+}

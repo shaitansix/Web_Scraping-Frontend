@@ -1,0 +1,41 @@
+.custom_alert {
+  padding: 0.6rem;
+  min-height: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.alert-info {
+  border-left: 4px solid var(--cs-info);
+  background-color: var(--cs-info-light);
+  color: var(--cs-info);
+}
+
+.alert-error {
+  border-left: 4px solid var(--cs-error);
+  background-color: var(--cs-error-light);
+  color: var(--cs-error);
+}
+
+.alert-warning {
+  border-left: 4px solid var(--cs-warning);
+  background-color: var(--cs-warning-light);
+  color: var(--cs-warning);
+}
+
+.alert-success {
+  border-left: 4px solid var(--cs-success);
+  background-color: var(--cs-success-light);
+  color: var(--cs-success);
+}
+
+.alert-icon {
+  min-width: 32px;
+  min-height: 32px;
+  max-width: 32px;
+  max-height: 32px;
+
+  stroke-width: 1.2;
+}
